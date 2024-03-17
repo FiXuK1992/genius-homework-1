@@ -1,0 +1,178 @@
+/* play-regular - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/play-v19-latin-regular.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* play-700 - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/play-v19-latin-700.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-regular - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-v30-latin-regular.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+:root {
+    --color-primary-white: #FFFFFF;
+    --color-primary-blue-light: #2B7FFF;
+    --color-primary-blue-dark: #011C44;
+    --color-secondary-4A4A4A: #4A4A4A;
+    --color-secondary-747272: #747272;
+    --color-secondary-011F4A: #011F4A;
+}
+
+/* Base */
+body {
+    color: var(--color-primary-blue-dark);
+    font-family: Roboto, sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+address {
+    font-style: normal;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+/* Hero section */
+.hero-title {
+    font-size: 18px;
+    color: var(--color-primary-blue-light);
+    text-align: left;
+    font-size: 140px;
+    font-weight: 700;
+}
+h2 {
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.preheadertext {
+    font-size: 18px;
+}
+
+/* Button */
+.button {
+    font-weight: 600;
+    color: var(--color-primary-white);
+    background-color: var(--color-primary-blue-light);
+    border: 2px solid var(--color-primary-blue-light);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.button:hover {
+    color: var(--color-primary-blue-dark);
+    border: 2px solid var(--color-primary-blue-light);
+    background-color: transparent;
+}
+.underbutton-text {
+    font-size: 12px;
+color: var(--color-secondary-4A4A4A);
+}
+
+/* Link */
+.link {
+    font-size: 18px;
+    color: var(--color-primary-blue-dark);
+    text-decoration: none;
+}
+
+.link:hover {
+    color: var(--color-primary-blue-light);
+    font-weight: 700;
+}
+
+/* about-us-section */
+.about-us-section .accent {
+    color: var(--color-primary-blue-light);
+}
+
+.about-us-section-accentdark .accentdark {
+    font-weight: 600;
+}
+
+/* why-we-section */
+.why-we-section .accent {
+    color: var(--color-primary-blue-light);
+}
+
+.advantages {
+    color: #000000;
+    font-size: 18px;
+}
+
+/* procedures-section */
+.procedures-section .accent {
+    color: var(--color-primary-blue-light);
+}
+
+.procedure-list {
+color: var(--color-primary-white);
+}
+
+/* contacts-section */
+.contacts-section .accent {
+    color: var(--color-primary-blue-light);
+}
+
+.formtext {
+color: var(--color-primary-white);
+}
+
+.formtext .accent {
+    color: var(--color-primary-blue-light);
+    font-weight: 600;
+}
+
+/* Footer */
+.adress-link {
+    color: var(--color-primary-white);
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.adress-link:hover {
+    color: var(--color-primary-blue-light);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.adress-copyright {
+    font-size: 13px;
+}
+
+.footer-link {
+color: var(--color-primary-white);
+}
+
+.footer-link:hover {
+    color: var(--color-primary-blue-light);
+    font-weight: 700;
+    text-decoration: none;
+}
+
